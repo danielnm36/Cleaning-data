@@ -1,16 +1,15 @@
 Getting and Cleaning Data 
-Instructions on how to run analysis on Human Activity recognition dataset.
+Instructions on how to run the script.
 
 Dataset
 Human Activity Recognition Using Smartphones
 
-Files
-CodeBook.md a code book that describes the variables, the data, and any transformations that was performed to clean up the data
+The variables are described in the CodeBook.md
 
-run_analysis.R performs the data preparation and then followed by the 5 steps required.
+run_analysis.R performs the data cleaning and others steps steps required.
 Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-FinalData.txt is the exported final data after going through all the sequences described above.
+Output.txt is the exported final data after going through all the sequences described above.
